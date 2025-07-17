@@ -1,1 +1,82 @@
 @import url('izitoast/dist/css/iziToast.min.css');
+
+
+.form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.form>label {
+    display: block;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input[name="delay"] {
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[name="delay"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+fieldset {
+    margin: 0 0 24px;
+    padding: 16px;
+    border: 2px solid #999;
+    border-radius: 12px;
+    background-color: #fefefe;
+}
+
+legend {
+    font-weight: 400px;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+fieldset label {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 16px;
+    gap: 8px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

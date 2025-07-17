@@ -90,7 +90,7 @@ const onBtnClick = event => {
       refs.timer.seconds.textContent = '00';
     } else {
       const { days, hours, minutes, seconds } = convertMs(timeLeft);
-      refs.timer.days.textContent = days;
+      refs.timer.days.textContent = pad(days);
       refs.timer.hours.textContent = pad(hours);
       refs.timer.minutes.textContent = pad(minutes);
       refs.timer.seconds.textContent = pad(seconds);
